@@ -14,4 +14,11 @@
     color: white;
     text-align: center;
   }
- 
+div {
+  background-color: hsl(50, 33%, 25%);
+  left: 100;
+} 
+
+
+  
+  
