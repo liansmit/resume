@@ -15,6 +15,51 @@
     flex-direction: column ;
       }
 
+     
+      .special {
+        color: rgb(255, 255, 255);
+        text-align: center
+        
+        }
+        
+    
+        p {
+        color: rgb(0, 0, 0);
+        font-family: verdana;
+        font-size: 100%;
+        margin: 0px;
+        padding: 0px;
+        }
+    
+        h1{
+          color: rgb(255, 255, 255);
+        font-family: sans-serif;
+        font-size: 170%;  
+        }
+    
+        h2{
+          color: rgb(0, 0, 0);
+        font-family:sans-serif;
+        font-size: 130%;  
+        }
+    
+        h3{
+          color: rgb(0, 0, 0);
+        font-family:sans-serif;
+        font-size: 130%;  
+        }
+        
+        h4{
+          color: rgb(255, 255, 255);
+        font-family:  sans-serif;
+        font-size: 150%;  
+        }
+    
+        ul{
+        color: rgb(0, 0, 0);
+        font-family: sans-serif;
+        font-size: 100% 
+        }
 
   .main{
   display: flex;
