@@ -6,22 +6,35 @@
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
       <style>
      
-     .special {
+    .special {
     color: rgb(255, 255, 255);
     text-align: center
     
     }
-      
+    .nav-menu{
+    background-color: #d9b08c7e;
+    margin: 100;
+    padding: 0px;
+    }
+
     p {
     color: rgb(0, 0, 0);
-    font-family: sans-serif;
+    font-family: verdana;
     font-size: 100%;
+    margin: 20px;
+    padding: 0px;
     }
 
     h1{
       color: rgb(255, 255, 255);
     font-family: sans-serif;
     font-size: 170%;  
+    }
+
+    h2{
+      color: rgb(0, 0, 0);
+    font-family:sans-serif;
+    font-size: 130%;  
     }
 
     h3{
@@ -42,12 +55,7 @@
     font-size: 100% 
     }
     
-    body {
-  background-color: rgb(223, 223, 223);
-    }
   
-    
-
     </style>
   </head>
 
@@ -55,7 +63,7 @@
     
     <div class="header">
       <aside>
-      <img src="Images\Resume Image.JPG" alt="Resume Image" width="150" height="200">
+      <img src="Images\Resume Image.JPG" alt="Resume Image" id="profilePhoto" width="150" height="200">
       </aside>
           <h1>Lian Calldo Smit</h1>
               <p class="special">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -65,7 +73,7 @@
   
 <aside>
     <div id="sidebar">
-        <nav>
+        <nav class="nav-menu">
         <h2>Menu</h2>
           <ul>
               <li>  <a href="#education">Education</a></li>
